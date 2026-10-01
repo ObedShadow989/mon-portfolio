@@ -1,0 +1,94 @@
+/* 1. Réinitialisation et styles de base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #2d3748;
+    background-color: #f7fafc;
+    padding: 40px 20px;
+}
+
+/* 2. Conteneur principal (main) */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* 3. En-tête (header) */
+header {
+    border-bottom: 2px solid #edf2f7;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #1a202c;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #4a5568;
+    font-weight: 500;
+}
+
+/* 4. Sections */
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #2b6cb0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* 5. Cartes d'expériences (article) */
+article {
+    background-color: #f8fafc;
+    border-left: 4px solid #3182ce;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 0 8px 8px 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Effet au survol de la souris sur une expérience */
+article:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+article h3 {
+    font-size: 1.15rem;
+    color: #2d3748;
+    margin-bottom: 4px;
+}
+
+.meta {
+    font-size: 0.9rem;
+    color: #718096;
+    margin-bottom: 12px;
+}
+
+/* 6. Listes à puces */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+    color: #4a5568;
+}
